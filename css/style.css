@@ -1,10 +1,7 @@
 * {
     border-style: border-box;
 }
-
-.menu-categories {
-    margin: 20px 20px;
-}
+/********** Header-Navbar **********/
 .navbar-nav {
     margin-top: 15px;
 }
@@ -18,3 +15,33 @@
     clear: both;
     margin-top: -50px;
 }
+/********** Content **********/
+.menu-categories {
+    margin: 20px 20px;
+}
+.bckimg {
+    height: 500px;
+    width: auto;
+}
+div p {
+    margin:auto;
+    padding: 5px;
+}
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+    .navbar-nav {
+        display: none;
+    }
+  }
+  
+/********** Medium devices only **********/
+  @media (min-width: 992px) and (max-width: 1199px) {
+        .navbar-nav {
+            display: none;
+        }
+        .bckimg {
+            height: 600px;
+            width: auto;
+        }
+    }

@@ -1,0 +1,20 @@
+* {
+    border-style: border-box;
+}
+
+.menu-categories {
+    margin: 20px 20px;
+}
+.navbar-nav {
+    margin-top: 15px;
+}
+.navbar-nav a {
+    text-align: center;
+}
+.navbar-nav a:hover {
+    background: #c4c7fa;
+}
+.navbar-header button.navbar-toggle {
+    clear: both;
+    margin-top: -50px;
+}

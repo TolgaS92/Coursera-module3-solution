@@ -1,28 +1,36 @@
 * {
     border-style: border-box;
 }
+
 /********** Header-Navbar **********/
+
 .navbar-nav {
     margin-top: 15px;
 }
+
 .navbar-nav a {
     text-align: center;
 }
-.navbar-nav a:hover {
-    background: #c4c7fa;
+
+.active:hover {
+    color: rgb(199, 199, 199);
+    opacity: .3;
 }
-.navbar-header button.navbar-toggle {
-    clear: both;
-    margin-top: -50px;
+
+.chc:hover {
+    background-color: grey;
 }
+
 /********** Content **********/
 .menu-categories {
     margin: 20px 20px;
 }
+
 .bckimg {
     height: 500px;
     width: auto;
 }
+
 div p {
     margin:auto;
     padding: 5px;
